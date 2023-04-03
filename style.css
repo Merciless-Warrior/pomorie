@@ -1,0 +1,488 @@
+@charset "UTF-8";
+body {
+  overflow-x: hidden;
+}
+
+.header_photo {
+  display: flex;
+  margin-left: -10px;
+  margin-top: -10px;
+  width: 1920px;
+  font-family: "Open Sans";
+}
+
+.info .country {
+  margin-left: 390px;
+  margin-top: 40px;
+  font-size: 45px;
+  line-height: 120%;
+  color: #000;
+  width: 1261px;
+}
+.info .text_header {
+  margin-left: 467px;
+  width: 767px;
+  font-size: 15px;
+  line-height: 135%;
+  color: #000;
+  font-family: "Open Sans";
+}
+
+.transfer {
+  margin-left: 0px;
+  margin-top: 137px;
+  width: 885px;
+  font-family: "Open Sans";
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.servies_cons .servise_phone {
+  margin-left: 486px;
+  width: 434px;
+}
+.servies_cons .servise_time {
+  margin-left: 1030px;
+  margin-top: -135px;
+  width: 335px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  position: absolute;
+  grid-gap: 10px;
+  width: 1253px;
+  margin-left: 281px;
+  margin-top: 150px;
+  height: 600px;
+  /* Высота контейнера может быть изменена на любую другую */
+}
+
+.item {
+  background-color: #F6F6F6;
+  border: 1px solid #000;
+  font-size: 24px;
+  border-radius: 20px;
+  font-family: "Open Sans";
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.price {
+  background: linear-gradient(to right, #ff6f61, #ff9642);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateGradient 4s ease infinite;
+  animateColor: 2s linear infinite;
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes animateColor {
+  0% {
+    color: #ff6f61;
+  }
+  50% {
+    color: #ff9642;
+  }
+  100% {
+    color: #ff6f61;
+  }
+}
+.price_text {
+  margin-top: 800px;
+  margin-left: 191px;
+  width: 1139px;
+  height: 62px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #000;
+}
+
+.section_photo {
+  margin-left: -10px;
+  width: 1920px;
+  height: 800px;
+}
+
+.phonne {
+  position: absolute;
+  margin-left: 0px;
+  width: 300px;
+}
+
+.servies {
+  margin-top: 23px;
+  margin-left: 488px;
+  font-size: 40px;
+  line-height: 120%;
+  color: #000;
+  font-family: "Open Sans";
+}
+
+.title {
+  margin-left: 185px;
+  margin-top: 105px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Open Sans";
+  color: #000;
+}
+
+.menu {
+  position: absolute;
+  font-weight: bold;
+  margin-left: 280px;
+  margin-top: -35px;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #000;
+}
+
+.work {
+  margin-top: 150px;
+  margin-left: 534px;
+  font-family: "Open Sans";
+  color: #000;
+}
+
+.comfort {
+  margin-left: 436px;
+  margin-top: 57px;
+  width: 854px;
+  height: 118px;
+  font-family: "Open Sans";
+  color: #000;
+}
+
+.shipping {
+  margin-left: 334px;
+  font-size: 35px;
+  line-height: 120%;
+  font-family: "Open Sans";
+  color: #000;
+}
+
+.telegram {
+  width: 346px;
+  height: 78px;
+  margin-left: 591px;
+  font-family: "Open Sans";
+  background: #DC0C1C;
+  color: #FFFFFF;
+}
+
+.photo_footer {
+  margin-top: 41px;
+  margin-left: -10px;
+  width: 1920px;
+  margin-bottom: -20px;
+}
+
+.contact {
+  position: absolute;
+  font-size: 146px;
+  font-family: "Open Sans";
+  font-size: 46px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-left: 637px;
+  margin-top: 500px;
+}
+
+.icons {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.icon {
+  margin-top: -500px;
+  margin-left: 200px;
+}
+
+.phone_ukraine {
+  position: absolute;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: -330px;
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+.phone {
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: -120px;
+}
+
+.phone_bolgaria {
+  position: absolute;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 1030px;
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.yes {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 220px;
+}
+
+.wifi {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -40px;
+}
+
+.batery {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: -60px;
+}
+
+
+
+@media (max-width:998px){
+  .header_photo{
+    display: flex;
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 1920px;
+    font-family: 'Open Sans';
+  }
+
+  .section_photo{
+    margin-left: -10px;
+    width: 1920px;
+    height: 800px;
+}
+
+.transfer{
+  margin-left: 350px;
+  width: 1400px;
+}
+
+
+.servies{
+  display: flex;
+  flex-direction: row; 
+  width: 800px;
+  margin-left: 130px;
+}
+
+.work{
+  width: 400px;
+}
+.shipping{
+  margin-left:  350px;
+  width: 900px;
+}
+
+}
+
+
+@media (max-width:498px){
+
+  .title{
+    margin-top: 30px;
+    width: 1000px;
+  }
+.yes{
+  margin-left: 100px;
+}
+
+.menu{
+  margin-left: 160px;
+  margin-top: -40px;
+  font-size: 15px;
+
+}
+
+.batery{
+  margin-left: 500px;
+  margin-top: -45px;
+}
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  
+}
+
+.phone_ukraine{
+  margin-left: 180px
+}
+}
+
+
+@media (max-width:300px){
+  .header_photo{
+    display: flex;
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 1920px;
+    font-family: 'Open Sans';
+  }
+
+  .section_photo{
+    margin-left: -10px;
+    width: 1920px;
+    height: 800px;
+}
+
+.transfer{
+  margin-left: 350px;
+  width: 1400px;
+}
+
+
+.servies{
+  display: flex;
+  flex-direction: row; 
+  width: 800px;
+  margin-left: 130px;
+}
+
+.work{
+  width: 400px;
+}
+.shipping{
+  margin-left:  350px;
+  width: 900px;
+}
+
+}
+
+
+@media (max-width:498px){
+
+  .title{
+    margin-top: 30px;
+    width: 1000px;
+  }
+.yes{
+  margin-left: 100px;
+  width: 10px;
+  height: 10px;
+}
+
+.menu{
+  margin-left: 120px;
+  margin-top: -10px;
+  font-size: 10px;
+
+}
+
+.batery{
+  width: 20px;
+  height: 20px;
+  margin-left: 300px;
+  margin-top: -1px;
+}
+
+.wifi{
+  width: 40px;
+  height: 20px;
+  margin-left: 160px;
+  margin-top: -15px;
+}
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  
+}
+
+.phone_ukraine{
+  margin-left: 180px
+}
+
+.work{
+  margin-left: 200px;
+  width: 800px;
+}
+
+.comfort{
+  margin-left: 100px
+}
+
+.shipping{
+  margin-left: 100px;
+}
+
+.telegram{
+  margin-left: 260px;
+}
+
+.text_header{
+  position: absolute;
+  left: -310px;
+  width: 500px;
+}
+
+.country{
+  position: relative;
+  left: -310px;
+  font-size: 10px;
+}
+
+
+.transfer{
+  margin-top: 200px;
+  margin-left: 10px;
+}
+
+
+.servies_cons{
+  margin-left: -300px
+}
+
+.grid-container{
+  margin-left: 5px;
+}
+
+.price_text{
+  margin-left: 50px;
+}
+
+}
+
+
+
+@media screen and (max-width:550px){
+  .menu{
+    font-size: 15px;
+    width: 600px;
+  }
+  .batery{
+    margin-left: 740px;
+    margin-top: -10px;
+  }
+
+}
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
