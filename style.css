@@ -469,8 +469,9 @@ body {
 
 @media screen and (max-width:550px){
   .menu{
-    font-size: 15px;
-    width: 600px;
+    margin-left: 120px;
+    margin-top: -10px;
+    font-size: 8px;
   }
   .batery{
     margin-left: 740px;
