@@ -205,6 +205,7 @@ body {
 
 .icons {
   display: inline-block;
+  margin-top: 260px;
   margin-left: 50px;
 }
 
@@ -218,13 +219,13 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   margin-left: -330px;
-  margin-top: 200px;
+  margin-top: 450px;
   font-size: 30px;
 }
 
 .phone {
   position: absolute;
-  margin-left: 1100px;
+  margin-left: 1000px;
   margin-top: -120px;
 }
 
@@ -232,7 +233,7 @@ body {
   position: absolute;
   color: #FFFFFF;
   text-decoration: none;
-  margin-left: 1030px;
+  margin-left: 970px;
   margin-top: 70px;
   font-size: 30px;
 }
@@ -257,8 +258,16 @@ body {
   margin-top: -40px;
 }
 
+.text_header{
+  font-size: 35px;
+}
+
 
 @media screen and (max-width:330px) {
+
+  .text_header{
+    font-size: 15px;
+  }
   .menu{
     font-size: 9px;
     width: 130px;
