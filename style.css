@@ -144,6 +144,7 @@ body {
 .menu {
   position: absolute;
   font-weight: bold;
+  width: 400px;
   margin-left: 280px;
   margin-top: -35px;
   font-size: 18px;
@@ -252,6 +253,43 @@ body {
 
 .batery {
   position: absolute;
-  margin-left: 1000px;
-  margin-top: -60px;
-}/*# sourceMappingURL=style.css.map */
+  margin-left: 660px;
+  margin-top: -40px;
+}
+
+
+@media screen and (max-width:330px) {
+  .menu{
+    font-size: 9px;
+    width: 130px;
+    margin-top: -30px;
+    height: 24px;
+  }
+  .batery{
+    margin-left: 440px;
+    margin-top: -40px;
+  }
+
+  .icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+
+  .phone_ukraine{
+    margin-left: 180px
+  }
+}
+
+
+@media screen and (max-width:743px) {
+  .icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+
+  .phone_ukraine{
+    margin-left: 180px
+  }
+} /*# sourceMappingURL=style.css.map */
