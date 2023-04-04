@@ -11,6 +11,8 @@ body {
   font-family: "Open Sans";
 }
 
+
+
 .info .country {
   margin-left: 390px;
   margin-top: 40px;
@@ -22,16 +24,16 @@ body {
 .info .text_header {
   margin-left: 467px;
   width: 767px;
-  font-size: 15px;
+  font-size: 28px;
   line-height: 135%;
   color: #000;
   font-family: "Open Sans";
 }
 
 .transfer {
-  margin-left: 0px;
+  margin-left: 10px;
   margin-top: 137px;
-  width: 885px;
+  width: 1085px;
   font-family: "Open Sans";
   font-size: 32px;
   line-height: 120%;
@@ -275,14 +277,16 @@ body {
     font-size: 15px;
   }
   .menu{
-    font-size: 9px;
-    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 54px;
+    width: 900px;
     margin-top: -30px;
     height: 24px;
   }
+
   .batery{
-    margin-left: 440px;
-    margin-top: -40px;
+    margin-left: 1170px;
   }
 
   .icon{
@@ -326,6 +330,10 @@ body {
   .servies{
     width: 700px;
   }
+  .serviese_photo{
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 
@@ -353,16 +361,59 @@ body {
   .servies{
     width: 700px;
   }
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 54px;
+    width: 900px;
+  }
+  .batery{
+    margin-left: 1170px;
+  }
+  .serviese_photo{
+    display: flex;
+    flex-direction: row;
+  }
+
 }
 
 
 
 
 @media screen and (max-width:1400px) {
+  body{
+    width: 1400px;
+  }
+  .country{
+    font-size: 20px;
+  }
+
+  .info .text_header {
+    margin-left: 417px;
+    width: 1067px;
+    font-size: 38px;
+    line-height: 135%;
+    color: #000;
+    font-family: "Open Sans";
+  }
+
+
+  .serviese_photo{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+.transfer{
+  font-size: 32px;
+}
+
+
   .icon{
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 300px;
   }
   .shipping {
     margin-left: 334px;
@@ -384,6 +435,153 @@ body {
   }
 
   .servies{
+    font-weight: bold;
     width: 700px;
   }
-}/*# sourceMappingURL=style.css.map */
+
+  .yes{
+    margin-left: 40px;
+    margin-top: 80px;
+  }
+
+
+  .servise_phone{
+    margin-top: 30px;
+    font-size: 40px;
+    width: 400px;
+  }
+
+  .serviese_photo{
+    position: absolute;
+    margin-top: -195px;
+    font-size: 40px;
+
+  }
+
+  .price{
+    font-size: 50px;
+    height: 150px;
+  }
+
+.price_text{
+  font-size: 40px;
+}
+
+  .grid-container{
+    font-size: 30px;
+  }
+
+  .phonne{
+    margin-top: -90px;
+    font-size: 40px;
+    width: 400px;
+  }
+
+  .menu{
+    margin-top: -47px;
+    margin-left: 130px;
+    font-size: 38px;
+    height: 1600px;
+    width: 1550px;
+  }
+  .batery{
+    margin-left: 1630px;
+  }
+  .work{
+    font-size: 60px;
+    width: 1200px;
+  }
+
+  .comfort{
+    font-size: 40px;
+    width: 1500px;
+  }
+
+  .shipping{
+    width: 1200px;
+    margin-top: 130px;
+    font-size: 40px;
+  }
+
+  .telegram{
+    width: 400px;
+    font-size: 40px;
+    margin-left: 600px;
+  }
+
+  .title{
+    font-size: 40px;
+    width: 900px;
+  }
+  .servies{
+    font-size: 40px;
+    width: 750px;
+  }
+
+  .contact{
+    margin-left: 830px;
+  }
+
+}
+
+@media screen and (max-width:440px) {
+
+  .text_header{
+    font-size: 15px;
+  }
+  .menu{
+    font-size: 44px;
+    width: 1500px;
+    height: 24px;
+  }
+
+  .batery{
+    margin-left: 1590px;
+  }
+
+  .icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+
+  .phone_ukraine{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 250px;
+    font-size: 60px;
+    
+  }
+
+
+
+  .shipping {
+    margin-left: 334px;
+    font-size: 35px;
+    width: 700px;
+    line-height: 120%;
+    font-family: "Open Sans";
+    color: #000;
+  }
+  .phone_bolgaria{
+    font-size: 60px;
+    margin-left: 800px;
+  }
+
+  .contact{
+    margin-left: 650px;
+    font-size: 55px;
+  }
+
+  .phone{
+    margin-left: 900px;
+  }
+
+  .servies{
+    width: 700px;
+  }
+  .serviese_photo{
+    display: flex;
+    flex-direction: row;
+  }
+}
