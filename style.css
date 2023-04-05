@@ -434,6 +434,8 @@ body {
     font-size: 60px;
     
   }
+
+  
   .servies{
     width: 700px;
   }
@@ -560,10 +562,9 @@ body {
   }
 
   .phonne{
-    position: relative;
-    margin-top: -140px;
+    position: absolute;
+    margin-top: -180px;
     font-size: 40px;
-
     width: 400px;
 
   }
