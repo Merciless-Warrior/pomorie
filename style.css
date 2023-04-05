@@ -526,6 +526,12 @@ body {
 
 @media screen and (max-width:440px) {
 
+  .telegram{
+    width: 400px;
+    font-size: 40px;
+    margin-left: 600px;
+  }
+
   .text_header{
     font-size: 15px;
   }
@@ -553,12 +559,15 @@ body {
     
   }
 
-
+.wifi{
+  margin-left: 430px;
+  margin-top: -30px;
+}
 
   .shipping {
     margin-left: 334px;
     font-size: 35px;
-    width: 700px;
+    width: 900px;
     line-height: 120%;
     font-family: "Open Sans";
     color: #000;
