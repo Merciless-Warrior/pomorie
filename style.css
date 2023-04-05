@@ -540,7 +540,7 @@ body {
 
 
   .servise_phone{
-    margin-top: 30px;
+    margin-top: 90px;
     font-size: 40px;
     width: 400px;
   }
@@ -622,4 +622,5 @@ body {
     position: absolute;
     margin-top: -220px;
   }
+
 }
