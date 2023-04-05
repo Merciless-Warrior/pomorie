@@ -525,7 +525,9 @@ body {
 }
 
 @media screen and (max-width:440px) {
-
+  .photo_footer{
+    margin-top: 100px;
+  }
   .telegram{
     width: 400px;
     font-size: 30px;
