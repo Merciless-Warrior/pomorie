@@ -411,11 +411,9 @@ body {
     margin-top: -100px;
   }
   .phonne{
-    position: absolute;
-    margin-top: -150px;
+    margin-top: -90px;
     font-size: 40px;
     width: 400px;
-
   }
 }
 
