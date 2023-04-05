@@ -123,7 +123,6 @@ body {
 .phonne {
   position: absolute;
   margin-left: 0px;
-  margin-top: -20px;
   width: 300px;
 }
 
@@ -413,7 +412,7 @@ body {
   }
   .phonne{
     position: absolute;
-    margin-top: -180px;
+    margin-top: -160px;
     font-size: 40px;
     width: 400px;
 
@@ -571,7 +570,7 @@ body {
 
   .phonne{
     position: absolute;
-    margin-top: -180px;
+    margin-top: -160px;
     font-size: 40px;
     width: 400px;
 
