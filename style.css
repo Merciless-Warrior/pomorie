@@ -569,11 +569,9 @@ body {
   }
 
   .phonne{
-    position: absolute;
-    margin-top: -60px;
+    margin-top: -90px;
     font-size: 40px;
     width: 400px;
-
   }
 
   .menu{
