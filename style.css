@@ -289,7 +289,7 @@ body {
     margin-bottom: 400px;
     font-weight: bold;
   }
-
+  
 
   .transfer{
     position: absolute;
@@ -411,7 +411,7 @@ body {
     margin-top: -100px;
   }
   .phonne{
-    margin-top: -290px;
+    margin-top: -90px;
     font-size: 40px;
     width: 400px;
   }
@@ -620,6 +620,6 @@ body {
 
   .servise_time{
     position: absolute;
-    margin-top: -180px;
+    margin-top: -220px;
   }
 }
