@@ -315,7 +315,7 @@ body {
     margin-bottom: 300px;
     top: 40px;
     width: 1200px;
-    margin-left: 80px;
+    margin-left: 15px;
   }
 
   .info_menu{
@@ -490,7 +490,7 @@ body {
   .icon{
     display: flex;
     flex-direction: row;
-    margin-left: 300px;
+    margin-left: 50px;
   }
   .shipping {
     margin-left: 334px;
@@ -507,7 +507,7 @@ body {
   }
 
   .phone_bolgaria{
-    margin-left: 1030px;
+    margin-left: 630px;
     margin-top: 60px;
   }
 
@@ -541,6 +541,7 @@ body {
   }
 
 .price_text{
+  margin-left: 15px;
   font-size: 40px;
 }
 
