@@ -374,6 +374,9 @@ body {
     display: flex;
     flex-direction: row;
   }
+  .photo_footer{
+    margin-top: 100px;
+  }
 
 }
 
@@ -401,6 +404,9 @@ body {
   .serviese_photo{
     display: flex;
     flex-direction: row;
+  }
+  .photo_footer{
+    margin-top: 100px;
   }
 
 
@@ -529,7 +535,7 @@ body {
     margin-top: 100px;
   }
   .telegram{
-    width: 400px;
+    width: 600px;
     font-size: 30px;
     margin-left: 600px;
   }
