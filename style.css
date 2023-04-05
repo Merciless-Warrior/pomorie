@@ -27,6 +27,7 @@ body {
   font-size: 28px;
   line-height: 135%;
   color: #000;
+  font-weight: bold;
   font-family: "Open Sans";
 }
 
@@ -286,6 +287,7 @@ body {
     font-size: 28px;
     padding-top: 100px;
     margin-bottom: 400px;
+    font-weight: bold;
   }
 
 
@@ -609,4 +611,8 @@ body {
     margin-left: 830px;
   }
 
+  .servise_time{
+    position: absolute;
+    margin-top: -100px;
+  }
 }
