@@ -402,7 +402,6 @@ body {
   .serviese_photo{
     display: flex;
     flex-direction: row;
-    margin-top: -40px;
   }
 
   .comfort{
@@ -413,7 +412,7 @@ body {
   }
   .phonne{
     position: absolute;
-    margin-top: -130px;
+    margin-top: -150px;
     font-size: 40px;
     width: 400px;
 
