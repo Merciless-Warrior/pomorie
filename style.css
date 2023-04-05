@@ -544,8 +544,8 @@ body {
     font-size: 15px;
   }
   .menu{
-    font-size: 44px;
-    width: 1500px;
+    font-size: 34px;
+    width: 1300px;
     height: 24px;
   }
 
@@ -565,6 +565,10 @@ body {
     margin-top: 250px;
     font-size: 60px;
     
+  }
+
+  .price{
+    margin-left: 100px;
   }
 
 .wifi{
