@@ -271,22 +271,87 @@ body {
 
 
 
-@media screen and (max-width:330px) {
+@media screen and (max-width:430px) {
+  .info .country {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 45px;
+    margin-bottom: 100px;
+  }
+  .text_header {
+    position: absolute;
+    left: -167px;
+    margin-top: -130px;
+    font-size: 28px;
+    padding-top: 100px;
+    margin-bottom: 400px;
+  }
 
-  .text_header{
+
+  .transfer{
+    position: absolute;
+    margin-top: 400px;
+    margin-bottom: 1400px;
+    top: 1300px;
+    padding-top: 100px;
+    
+  }
+
+  .servies_cons{
+    position: relative;
+    padding-top: 300px;
+    left: -300px;
+  }
+
+  .grid-container{
+    padding-top: 200px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .price_text{
+    position: relative;
+    margin-bottom: 300px;
+    top: 40px;
+    width: 1200px;
+    margin-left: 80px;
+  }
+
+  .info_menu{
+    position: relative;
+    margin-left: -200px;
+    font-size: 10px;
+    
+  }
+
+  .work{
     font-size: 15px;
   }
-  .menu{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 54px;
-    width: 900px;
-    margin-top: -30px;
-    height: 24px;
+
+
+
+  .shipping{
+    margin-left: 10px;
   }
 
-  .batery{
-    margin-left: 1170px;
+  .telegram{
+    position: relative;
+    margin-left: -100px;
+  }
+
+
+
+  .menu{
+    position: relative;
+    font-size: 15px;
+    padding-top: -510px;
+    height: 100px;
+  }
+
+
+  .wifi{
+    margin-top: -140px;
   }
 
   .icon{
@@ -324,16 +389,22 @@ body {
   }
 
   .phone{
-    margin-left: 900px;
+    margin-left: 700px;
   }
 
   .servies{
     width: 700px;
+    margin-left: 170px;
   }
   .serviese_photo{
     display: flex;
     flex-direction: row;
   }
+
+  .comfort{
+    font-size: 15px;
+  }
+  
 }
 
 
@@ -486,12 +557,12 @@ body {
   .menu{
     margin-top: -47px;
     margin-left: 130px;
-    font-size: 38px;
-    height: 1600px;
+    font-size: 29px;
     width: 1550px;
   }
   .batery{
-    margin-left: 1630px;
+    margin-top: -60px;
+    margin-left: 1280px;
   }
   .work{
     font-size: 60px;
@@ -499,8 +570,9 @@ body {
   }
 
   .comfort{
-    font-size: 40px;
-    width: 1500px;
+    margin-left: 400px;
+    font-size: 30px;
+    width: 900px;
   }
 
   .shipping{
@@ -528,81 +600,4 @@ body {
     margin-left: 830px;
   }
 
-}
-
-@media screen and (max-width:440px) {
-  .photo_footer{
-    margin-top: 100px;
-  }
-  .telegram{
-    width: 600px;
-    font-size: 30px;
-    margin-left: 500px;
-  }
-
-  .text_header{
-    font-size: 15px;
-  }
-  .menu{
-    font-size: 34px;
-    width: 1300px;
-    height: 24px;
-  }
-
-  .batery{
-    margin-left: 1590px;
-  }
-
-  .icon{
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
-  }
-
-  .phone_ukraine{
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 250px;
-    font-size: 60px;
-    
-  }
-
-  .price{
-    margin-left: 100px;
-  }
-
-.wifi{
-  margin-left: 430px;
-  margin-top: -30px;
-}
-
-  .shipping {
-    margin-left: 334px;
-    font-size: 35px;
-    width: 900px;
-    line-height: 120%;
-    font-family: "Open Sans";
-    color: #000;
-  }
-  .phone_bolgaria{
-    font-size: 60px;
-    margin-left: 800px;
-  }
-
-  .contact{
-    margin-left: 650px;
-    font-size: 55px;
-  }
-
-  .phone{
-    margin-left: 900px;
-  }
-
-  .servies{
-    width: 700px;
-  }
-  .serviese_photo{
-    display: flex;
-    flex-direction: row;
-  }
 }
