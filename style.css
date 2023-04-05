@@ -490,6 +490,38 @@ body {
   .photo_footer{
     margin-top: 100px;
   }
+  .tellol{
+    margin-top: -430px;
+    margin-left: 10px;
+  }
+
+  .question{
+    margin-top: 10px;
+    width: 1200px;
+    margin-left: -100px;
+  }
+
+  .comfort{
+    font-size: 15px;
+  }
+  .serviese_photo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 500px;
+  }
+  
+  .servise_phone {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .servies_cons .servise_phone {
+    margin-left: 486px;
+    width: 434px;
+    margin-top: 60px;
+  }
 
 }
 
