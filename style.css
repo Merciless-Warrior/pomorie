@@ -1,7 +1,5 @@
 @charset "UTF-8";
-body {
-  overflow-x: hidden;
-}
+
 
 .header_photo {
   display: flex;
