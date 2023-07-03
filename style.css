@@ -58,7 +58,7 @@
   margin-left: 281px;
   margin-top: 150px;
   height: 600px;
-  /* Высота контейнера может быть изменена на любую другую */
+
 }
 
 .item {
@@ -108,6 +108,7 @@
   width: 1139px;
   height: 62px;
   font-weight: 600;
+  margin-bottom: 100px;
   font-family: "Open Sans";
   color: #000;
 }
@@ -182,8 +183,9 @@
 }
 
 .telegram {
-  width: 446px;
-  height: 138px;
+  width: 346px;
+  height: 68px;
+  border-radius: 20px;
   margin-left: 391px;
   font-family: "Open Sans";
   background: #DC0C1C;
