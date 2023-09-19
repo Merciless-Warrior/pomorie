@@ -183,7 +183,7 @@
 }
 
 .telegram {
-  width: 346px;
+  width: 336px;
   height: 68px;
   border-radius: 20px;
   margin-left: 391px;
@@ -213,10 +213,12 @@
 .icons {
   display: inline-block;
   margin-top: 60px;
+  
   margin-left: 50px;
 }
 
 .icon {
+
   margin-top: -440px;
   margin-left: 300px;
 }
@@ -227,7 +229,7 @@
   text-decoration: none;
   margin-left: -430px;
   margin-top: 250px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .phone {
@@ -242,7 +244,7 @@
   text-decoration: none;
   margin-left: 1070px;
   margin-top: 70px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .yes {
